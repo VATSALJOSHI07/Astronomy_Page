@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AstronomyApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Astronomy Information</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url("twinkling-stars.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; /* Change to 'cover' to fit the entire viewport */
+            overflow: visible;
+        }
+
+        .navbar-container {
+            text-align: center;
+        }
+
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            background-color: #333;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body ng-controller="AstronomyController">
+    <header>
+        <h1>Welcome to the Astronomy Information Page</h1>
+    </header>
+    <nav>
+        <div class="navbar-container">
+            <ul class="navbar">
+                <li><a ng-click="loadData('stars')">Stars</a></li>
+                <li><a ng-click="loadData('planets')">Planets</a></li>
+                <li><a ng-click="loadData('galaxies')">Galaxies</a></li>
+            </ul>
+            <input type="text" ng-model="searchText" placeholder="Search">
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h2>{{ category }}</h2>
+            <div class="container" ng-if="category === 'stars'">
+                <div class="box" ng-repeat="star in stars | filter: searchText">
+                    <h3>{{ star.name }}</h3>
+                    <img src="{{ star.image }}" alt="{{ star.name }}">
+                    <p>{{ star.description }}</p>
+                    <a href="#" class="btn" ng-click="showDetails(star)">Read more</a>
+                </div>
+            </div>
+            <div class="container" ng-if="category === 'planets'">
+                <div class="box" ng-repeat="planet in planets | filter: searchText">
+                    <h3>{{ planet.name }}</h3>
+                    <img src="{{ planet.image }}" alt="{{ planet.name }}">
+                    <p>{{ planet.description }}</p>
+                    <a href="#" class="btn" ng-click="showDetails(planet)">Read more</a>
+                </div>
+            </div>
+            <div class="container" ng-if="category === 'galaxies'">
+                <div class="box" ng-repeat="galaxy in galaxies | filter: searchText">
+                    <h3>{{ galaxy.name }}</h3>
+                    <img src="{{ galaxy.image }}" alt="{{ galaxy.name }}">
+                    <p>{{ galaxy.description }}</p>
+                    <a href="#" class="btn" ng-click="showDetails(galaxy)">Read more</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectcss.css">
+    <style>
+        body {
+            background-image: url("twinkling-stars.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Your container content here -->
+        <div class="earth"></div>
+        <div class="mars"></div>
+        <div class="venus"></div>
+        <div class="jupiter"></div>
+    </div>
+    <div class="center">
+        <h1>
+            <center> Login </center>
+        </h1>
+        <form method="post" action="/login">
+            <div class="txt_field">
+                <input type="text" name="username" required> <!-- Change "email" to "username" to match your schema -->
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="pass">Forget Password?</div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="bottom-center">
+            <center>
+            <h2><a href="signup.html">Signup</a></h2>
+            </center>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

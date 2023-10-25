@@ -1,0 +1,233 @@
+{
+    "stars": [
+        {
+            "name": "Sun",
+            "description": "The Sun is the star at the center of our solar system. It provides light and heat, making life on Earth possible.",
+            "image": "sun.jpg"
+        },
+        {
+            "name": "Sirius",
+            "description": "Sirius is the brightest star in the night sky and is part of the Canis Major constellation.",
+            "image": "sirius.jpg"
+        },
+        {
+            "name": "Alpha Centauri",
+            "description": "Alpha Centauri is the closest star system to our solar system, located just over 4 light-years away.",
+            "image": "alpha_centauri.jpg"
+        },
+        {
+            "name": "Betelgeuse",
+            "description": "Betelgeuse is a red supergiant star in the Orion constellation and one of the largest known stars.",
+            "image": "betelgeuse.jpg"
+        },
+        {
+            "name": "Polaris",
+            "description": "Polaris, also known as the North Star, is a key reference point for navigation in the Northern Hemisphere.",
+            "image": "polaris.jpg"
+        },
+        {
+            "name": "Vega",
+            "description": "Vega is one of the brightest stars in the Lyra constellation and is relatively close to our solar system.",
+            "image": "vega.jpg"
+        },
+        {
+            "name": "Canopus",
+            "description": "Canopus is the second-brightest star in the night sky and is part of the Carina constellation.",
+            "image": "canopus.jpg"
+        },
+        {
+            "name": "Proxima Centauri",
+            "description": "Proxima Centauri is a red dwarf star and the closest known star to our solar system.",
+            "image": "proxima_centauri.jpg"
+        },
+        {
+            "name": "Arcturus",
+            "description": "Arcturus is the brightest star in the Bootes constellation and is known for its distinctive orange-red color.",
+            "image": "arcturus.jpg"
+        },
+        {
+            "name": "Rigel",
+            "description": "Rigel is the brightest star in the Orion constellation and is a blue supergiant star.",
+            "image": "rigel.jpg"
+        },
+        {
+            "name": "Antares",
+            "description": "Antares is a red supergiant star in the Scorpius constellation, known for its bright appearance.",
+            "image": "antares.jpg"
+        },
+        {
+            "name": "Aldebaran",
+            "description": "Aldebaran is a giant star in the Taurus constellation and is often called the 'Eye of the Bull.'",
+            "image": "aldebaran.jpg"
+        },
+        {
+            "name": "Deneb",
+            "description": "Deneb is one of the brightest stars in the night sky and is part of the Cygnus constellation.",
+            "image": "deneb.jpg"
+        },
+        {
+            "name": "Regulus",
+            "description": "Regulus is the brightest star in the Leo constellation and is sometimes called the 'Heart of the Lion.'",
+            "image": "regulus.jpg"
+        },
+        {
+            "name": "Spica",
+            "description": "Spica is a binary star system in the Virgo constellation and is the brightest star in that area.",
+            "image": "spica.jpg"
+        }
+    ],
+    "planets": [
+        {
+            "name": "Mercury",
+            "description": "Mercury is the closest planet to the Sun and has extreme temperature variations.",
+            "image": "mercury.jpg"
+        },
+        {
+            "name": "Venus",
+            "description": "Venus is often called Earth's twin due to its similar size, but it has a thick, toxic atmosphere.",
+            "image": "venus.jpg"
+        },
+        {
+            "name": "Earth",
+            "description": "Earth is the third planet from the Sun and is the only known planet with life.",
+            "image": "earth.jpg"
+        },
+        {
+            "name": "Mars",
+            "description": "Mars is the Red Planet, known for its reddish appearance and potential for future human exploration.",
+            "image": "mars.jpg"
+        },
+        {
+            "name": "Jupiter",
+            "description": "Jupiter is the largest planet in our solar system, known for its massive size and colorful bands.",
+            "image": "jupiter.jpg"
+        },
+        {
+            "name": "Saturn",
+            "description": "Saturn is famous for its stunning ring system, which consists of numerous icy particles.",
+            "image": "saturn.jpg"
+        },
+        {
+            "name": "Uranus",
+            "description": "Uranus is a unique planet that rotates on its side and has a bluish-green color.",
+            "image": "uranus.jpg"
+        },
+        {
+            "name": "Neptune",
+            "description": "Neptune is the farthest planet from the Sun and is known for its deep blue color and strong winds.",
+            "image": "neptune.jpg"
+        },
+        {
+            "name": "Pluto",
+            "description": "Pluto is a dwarf planet in the Kuiper Belt, known for its controversial reclassification.",
+            "image": "pluto.jpg"
+        },
+        {
+            "name": "Ceres",
+            "description": "Ceres is the largest object in the asteroid belt and is considered a dwarf planet.",
+            "image": "ceres.jpg"
+        },
+        {
+            "name": "Makemake",
+            "description": "Makemake is a dwarf planet in the Kuiper Belt, known for its icy surface.",
+            "image": "makemake.jpg"
+        },
+        {
+            "name": "Haumea",
+            "description": "Haumea is a dwarf planet in the Kuiper Belt and is known for its rapid rotation and elongated shape.",
+            "image": "haumea.jpg"
+        },
+        {
+            "name": "Eris",
+            "description": "Eris is a dwarf planet in the Kuiper Belt and is one of the most massive known dwarf planets.",
+            "image": "eris.jpg"
+        },
+        {
+            "name": "Sedna",
+            "description": "Sedna is a trans-Neptunian object with an extremely distant and elongated orbit.",
+            "image": "sedna.jpg"
+        },
+        {
+            "name": "Quaoar",
+            "description": "Quaoar is a Kuiper Belt object and one of the largest known bodies beyond Pluto.",
+            "image": "quaoar.jpg"
+        }
+    ],
+    "galaxies": [
+        {
+            "name": "Milky Way",
+            "description": "The Milky Way is our home galaxy, a vast spiral galaxy containing billions of stars.",
+            "image": "milky_way.jpg"
+        },
+        {
+            "name": "Andromeda",
+            "description": "The Andromeda Galaxy is a neighboring spiral galaxy and is on a collision course with the Milky Way.",
+            "image": "andromeda.jpg"
+        },
+        {
+            "name": "Triangulum",
+            "description": "The Triangulum Galaxy is a small spiral galaxy located in the constellation Triangulum.",
+            "image": "triangulum.jpg"
+        },
+        {
+            "name": "Centaurus A",
+            "description": "Centaurus A is a peculiar galaxy with a prominent dust lane, located in the Centaurus constellation.",
+            "image": "centaurus_a.jpg"
+        },
+        {
+            "name": "Whirlpool",
+            "description": "The Whirlpool Galaxy is a spiral galaxy known for its classic spiral arm structure.",
+            "image": "whirlpool.jpg"
+        },
+        {
+            "name": "Black Eye",
+            "description": "The Black Eye Galaxy is a spiral galaxy with a striking dark band of dust.",
+            "image": "black_eye.jpg"
+        },
+        {
+            "name": "Pinwheel",
+            "description": "The Pinwheel Galaxy is another beautiful spiral galaxy in the Ursa Major constellation.",
+            "image": "pinwheel.jpg"
+        },
+        {
+            "name": "Sombrero",
+            "description": "The Sombrero Galaxy is an edge-on spiral galaxy resembling a sombrero hat.",
+            "image": "sombrero.jpg"
+        },
+        {
+            "name": "Cigar",
+            "description": "The Cigar Galaxy is a dusty spiral galaxy in the Ursa Major constellation.",
+            "image": "cigar.jpg"
+        },
+        {
+            "name": "Triangulum",
+            "description": "The Triangulum Galaxy is a small spiral galaxy located in the constellation Triangulum.",
+            "image": "triangulum.jpg"
+        },
+        {
+            "name": "Bode's Galaxy",
+            "description": "Bode's Galaxy, also known as M81, is a spiral galaxy in the Ursa Major constellation.",
+            "image": "bodes_galaxy.jpg"
+        },
+        {
+            "name": "Cassiopeia A",
+            "description": "Cassiopeia A is a supernova remnant located in the Cassiopeia constellation, emitting strong radio waves.",
+            "image": "cassiopeia_a.jpg"
+        },
+        {
+            "name": "Hoag's Object",
+            "description": "Hoag's Object is a peculiar galaxy with a circular ring structure around a bright core.",
+            "image": "hoags_object.jpg"
+        },
+        {
+            "name": "Cartwheel Galaxy",
+            "description": "The Cartwheel Galaxy is a lenticular galaxy known for its striking blue ring of star formation.",
+            "image": "cartwheel_galaxy.jpg"
+        },
+        {
+            "name": "Caldwell 81",
+            "description": "Caldwell 81, also known as NGC 3031, is a barred spiral galaxy in the Ursa Major constellation.",
+            "image": "caldwell_81.jpg"
+        }
+    ]
+}

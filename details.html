@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AstronomyApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body ng-controller="DetailsController">
+    <h1>Details</h1>
+    <h2>{{ selectedItem.name }}</h2>
+    <p>{{ selectedItem.description }}</p>
+    <a href="" ng-click="goBack()">Go Back</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="details.js"></script>
+</body>
+</html>
